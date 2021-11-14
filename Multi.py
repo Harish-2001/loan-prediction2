@@ -62,6 +62,6 @@ def show_predict_page_4():
         x = x.astype(float)
 
         loan = multi_linear_reg_load.predict(x)
-        st.subheader(f"The Loan Approval Status is {0.14+loan[0]:.2f}")
+        st.subheader(f"The Loan Approval Status is {0.09+loan[0]:.2f}")
 
     
