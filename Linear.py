@@ -50,7 +50,7 @@ def show_predict_page():
     education = st.selectbox("Education",education)
     credit = st.selectbox("Credit Score",credit_history)
     income = st.slider("Income (in $)", 0, 100000, 1000)
-    loan_amount = st.slider("Loan Amount (in $)", 0, 10000, 100)
+    loan_amount = st.slider("Loan Amount (in $)", 0, 1000, 100)
     loan_amount_term = st.slider("Loan Amount Term (in months)", 0, 480, 40)
 
 
