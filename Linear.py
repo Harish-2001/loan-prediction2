@@ -63,10 +63,12 @@ def show_predict_page():
         x = x.astype(float)
 
         loan = linear_reg_load.predict(x)
-        if(loan > 0.5):
-            ans = 'yes';
-        st.subheader(f"The Loan Approval Status is {loan[0]:.2f}")
-        st.subheader(f"The Loan Approval Status is" + ans)
+        if(loan >= 0.5):
+            ans = 'Yes'
+        else:
+            ans = 'No'
+        #st.subheader(f"The Loan Approval Status is {loan[0]:.2f}")
+        st.subheader(f"The Loan Approval Status is - " + " " + ans)
 
 
     
