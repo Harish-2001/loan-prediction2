@@ -68,7 +68,7 @@ def show_predict_page():
         else:
             ans = 'No'
         #st.subheader(f"The Loan Approval Status is {loan[0]:.2f}")
-        st.subheader(f"The Loan Approval Status is - " + " " + ans)
+        st.subheader(f"The Loan Approval Status  - " + " " + ans)
 
 
     
