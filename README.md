@@ -45,3 +45,4 @@ We have concluded the following -
 
 ## Webpage link
 [https://share.streamlit.io/harish-2001/loan-prediction2/main/app.py](url)
+Copy the link and open in new tab..
