@@ -11,7 +11,7 @@ Random Forest Regressor | The random forest combines hundreds or thousands of de
 Decission Tree Regressor | Decision Tree is a decision-making tool that uses a flowchart-like tree structure or is a model of decisions and all of their possible results, including outcomes, input costs, and utility.Decision-tree algorithm falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables. |
 
 ## Data Sets
-The data set was collected from Kaggle, it consists of approx 750 rows and 600 columns. It contains variables like Gender, Marrital status, Income, Loan Amount, Loan Amount Term, Credit History, etc.
+The data set was collected from Kaggle, It contains variables like Gender, Marrital status, Income, Loan Amount, Loan Amount Term, Credit History, etc. We have first determined the training and testing data and then we have cleaned the data and processed it.
 
 ## Quick Start
 To use the repo and run inferences, please follow the guidelines below
