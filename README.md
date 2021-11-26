@@ -31,5 +31,4 @@ To use the repo and run inferences, please follow the guidelines below
 
 Linear | Random Forest | 
 :-------------: | :---------: |
-![image](https://user-images.githubusercontent.com/72653126/143570203-c298ffbd-7705-44b1-b9ba-42d7a7561fc1.png)
-| ![image](https://user-images.githubusercontent.com/72653126/143570278-3623e0ff-3f3b-4836-a54f-9c48722ad589.png)|
+![rf-op](https://user-images.githubusercontent.com/72653126/143570203-c298ffbd-7705-44b1-b9ba-42d7a7561fc1.png) | ![gru-op](https://user-images.githubusercontent.com/72653126/143570278-3623e0ff-3f3b-4836-a54f-9c48722ad589.png)|
