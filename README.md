@@ -9,6 +9,10 @@ Linear Regressor | Simple linear regression is an approach for predicting a resp
 Multi Linear Regressor | Multiple linear regression (MLR), also known simply as multiple regression, is a statistical technique that uses several explanatory variables to predict the outcome of a response variable. Multiple regression is an extension of linear (OLS) regression that uses just one explanatory variable. | 
 Random Forest Regressor | The random forest combines hundreds or thousands of decision trees, trains each one on a slightly different set of the observations, splitting nodes in each tree considering a limited number of the features. The final predictions of the random forest are made by averaging the predictions of each individual tree. |
 Decission Tree Regressor | Decision Tree is a decision-making tool that uses a flowchart-like tree structure or is a model of decisions and all of their possible results, including outcomes, input costs, and utility.Decision-tree algorithm falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables. |
+
+## Data Sets
+The data set was collected from Kaggle, it consists of approx 750 rows and 600 columns. It contains variables like Gender, Marrital status, Income, Loan Amount, Loan Amount Term, Credit History, etc.
+
 ## Quick Start
 To use the repo and run inferences, please follow the guidelines below
 </br>
@@ -32,3 +36,9 @@ To use the repo and run inferences, please follow the guidelines below
 Linear | Random Forest | 
 :-------------: | :---------: |
 ![rf-op](https://user-images.githubusercontent.com/72653126/143570203-c298ffbd-7705-44b1-b9ba-42d7a7561fc1.png) | ![gru-op](https://user-images.githubusercontent.com/72653126/143570278-3623e0ff-3f3b-4836-a54f-9c48722ad589.png)|
+
+## Conclusion
+We have concluded the following -
+
+- Random Forest performs the best among the regression and it has the lowest mean square error, mean absolute error, r2 score.
+- Decision Tress has the highest mean square error, mean absolute error, r2 score. It is the worest regressor for loan prediction.
